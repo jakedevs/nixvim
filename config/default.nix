@@ -4,26 +4,26 @@
     ./bufferline.nix
     ./cmp.nix
   ];
-  
 
-colorschemes.kanagawa.enable = true;
 
-plugins = {
-lualine.enable = true;
+  colorschemes.kanagawa.enable = true;
 
-conform-nvim.enable = true;
+  plugins = {
+    lualine.enable = true;
 
-nvim-autopairs.enable = true;
+    lsp-format.enable = true;
 
-neogit.enable = true;
+    nvim-autopairs.enable = true;
 
-lsp = {
-enable = true;
-servers = {
-nil_ls.enable = true;
-};
-};
-};
+    neogit.enable = true;
+
+    lsp = {
+      enable = true;
+      servers = {
+        nixd.enable = true;
+      };
+    };
+  };
 
 
 }
