@@ -14,7 +14,6 @@
   colorschemes.kanagawa.theme = "dragon";
   colorschemes.kanagawa.background.dark = "dragon";
 
-
   viAlias = true;
   vimAlias = true;
   luaLoader.enable = true;
@@ -25,6 +24,8 @@
     lsp-format.enable = true;
 
     nvim-autopairs.enable = true;
+
+    nvim-tree.enable = true;
 
     neogit.enable = true;
     neogit.settings.auto_show_console = false;
