@@ -4,14 +4,16 @@
     ./bufferline.nix
     ./cmp.nix
     ./keymaps.nix
+    ./options.nix
   ];
 
 
+  globals.mapleader = " ";
   colorschemes.kanagawa.enable = true;
+  colorschemes.kanagawa.compile = true;
   colorschemes.kanagawa.theme = "dragon";
   colorschemes.kanagawa.background.dark = "dragon";
 
-  globals.mapleader = " ";
 
   viAlias = true;
   vimAlias = true;
