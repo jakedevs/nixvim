@@ -8,6 +8,8 @@
 
 
   colorschemes.kanagawa.enable = true;
+  colorschemes.kanagawa.theme = "dragon";
+  colorschemes.kanagawa.background.dark = "dragon";
 
   globals.mapleader = " ";
 
