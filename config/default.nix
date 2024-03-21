@@ -26,6 +26,8 @@
 
     nvim-tree.enable = true;
 
+    neocord.enable = true;
+
     neogit.enable = true;
     neogit.settings.auto_show_console = false;
     neogit.settings.integrations.diffview = true;
