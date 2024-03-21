@@ -30,6 +30,10 @@
     neogit.settings.auto_show_console = false;
     neogit.settings.integrations.diffview = true;
     neogit.settings.integrations.telescope = true;
+
+    obsidian.enable = true;
+    obsidian.settings.dir = "~/Notes";
+
     diffview.enable = true;
     telescope.enable = true;
 
