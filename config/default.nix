@@ -24,6 +24,8 @@
 
     nvim-autopairs.enable = true;
 
+    which-key.enable = true;
+
     nvim-tree.enable = true;
 
     neogit.enable = true;
