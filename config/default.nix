@@ -7,7 +7,6 @@
     ./options.nix
   ];
 
-
   globals.mapleader = " ";
   colorschemes.kanagawa.enable = true;
   colorschemes.kanagawa.compile = true;

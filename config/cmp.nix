@@ -2,6 +2,7 @@
   plugins = {
     cmp.enable = true;
     luasnip.enable = true;
+    friendly-snippets.enable = true;
     cmp.settings = {
       mapping = {
         __raw = ''
@@ -15,7 +16,9 @@
         '';
       };
       snippet = {
-        expand = "luasnip";
+        expand = ''function(args)
+    require('luasnip').lsp_expand(args.body)
+  end'';
       };
       sources = [
         { name = "nvim_lsp"; }
