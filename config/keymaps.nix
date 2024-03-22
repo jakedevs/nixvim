@@ -30,5 +30,11 @@
       options.silent = true;
       options.desc = "search files";
     }
+    {
+      action = "<cmd>TroubleToggle<CR>";
+      key = "<leader>ce";
+      options.silent = true;
+      options.desc = "error panel";
+    }
   ];
 }

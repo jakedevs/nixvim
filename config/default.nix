@@ -18,6 +18,9 @@
   luaLoader.enable = true;
 
   plugins = {
+
+    diffview.enable = true;
+
     lualine.enable = true;
 
     lsp-format.enable = true;
@@ -36,8 +39,9 @@
     obsidian.enable = true;
     obsidian.settings.dir = "~/Notes";
 
-    diffview.enable = true;
     telescope.enable = true;
+
+    trouble.enable = true;
 
     lsp = {
       enable = true;
