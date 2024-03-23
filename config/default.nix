@@ -40,6 +40,10 @@
 
     obsidian.enable = true;
     obsidian.settings.dir = "~/Notes";
+    obsidian.settings.templates.subdir = "Templates";
+    obsidian.settings.daily_notes.folder = "Daily/";
+    obsidian.settings.daily_notes.template = "Daily.md";
+    obsidian.settings.disable_frontmatter = true;
 
     telescope.enable = true;
 
