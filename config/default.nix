@@ -47,6 +47,10 @@
 
     telescope.enable = true;
 
+    treesitter.enable = true;
+    treesitter.indent = true;
+    treesitter.nixvimInjections = true;
+
     trouble.enable = true;
 
     lsp = {
