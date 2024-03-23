@@ -3,6 +3,7 @@
   imports = [
     ./bufferline.nix
     ./cmp.nix
+    ./mini.nix
     ./keymaps.nix
     ./options.nix
   ];
@@ -22,6 +23,7 @@
     diffview.enable = true;
 
     lualine.enable = true;
+    lualine.globalstatus = true;
 
     lsp-format.enable = true;
 

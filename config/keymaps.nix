@@ -36,5 +36,11 @@
       options.silent = true;
       options.desc = "error panel";
     }
+    {
+      action = "<cmd>lua MiniFiles.open()<CR>";
+      key = "<leader>fm";
+      options.silent = true;
+      options.desc = "file manager";
+    }
   ];
 }
