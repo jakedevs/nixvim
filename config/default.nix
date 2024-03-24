@@ -49,7 +49,7 @@
 
     treesitter.enable = true;
     treesitter.indent = true;
-    treesitter.nixvimInjections = true;
+    treesitter.folding = true;
 
     trouble.enable = true;
 
