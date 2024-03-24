@@ -2,7 +2,6 @@
   # Import all your configuration modules here
   imports = [
     ./lsp.nix
-    ./bufferline.nix
     ./cmp.nix
     ./mini.nix
     ./keymaps.nix
@@ -21,7 +20,8 @@
 
   plugins = {
 
-
+		bufferline.enable = true;
+	
     diffview.enable = true;
 
     lualine.enable = true;

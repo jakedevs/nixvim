@@ -49,5 +49,18 @@
       key = "<C-S-i>";
       options.desc = "format code";
     }
+		{
+			action = "<cmd>Neogit<CR>";
+			key = "<leader>gg";
+			options.desc = "git ui";
+		}
+		{
+			action = "<cmd>bprevious<CR>";
+			key = "<leader>h";
+		}
+		{
+			action = "<cmd>bnext<CR>";
+			key = "<leader>l";
+		}
   ];
 }
