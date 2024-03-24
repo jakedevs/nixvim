@@ -49,7 +49,6 @@
 
     treesitter.enable = true;
     treesitter.indent = true;
-    treesitter.folding = true;
 
     trouble.enable = true;
 
