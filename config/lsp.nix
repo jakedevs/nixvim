@@ -18,7 +18,7 @@
 
     conform-nvim.enable = true;
     conform-nvim.formattersByFt = {
-      nix = [ "nixd" ];
+      nix = [ "nixfmt" ];
       javascript = [ "prettierd" ];
     };
   };

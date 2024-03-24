@@ -2,7 +2,6 @@
   plugins = {
     cmp.enable = true;
     luasnip.enable = true;
-    friendly-snippets.enable = true;
     cmp.settings = {
       mapping = {
         __raw = ''
