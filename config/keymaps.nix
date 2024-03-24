@@ -37,10 +37,17 @@
       options.desc = "error panel";
     }
     {
-      action = "<cmd>lua MiniFiles.open()<CR>";
+      lua = true;
+      action = "MiniFiles.open";
       key = "<leader>fm";
       options.silent = true;
       options.desc = "file manager";
+    }
+    {
+      lua = true;
+      action = "require ('conform').format";
+      key = "<C-S-i>";
+      options.desc = "format code";
     }
   ];
 }

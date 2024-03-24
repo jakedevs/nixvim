@@ -1,6 +1,7 @@
 {
   # Import all your configuration modules here
   imports = [
+    ./lsp.nix
     ./bufferline.nix
     ./cmp.nix
     ./mini.nix
@@ -20,12 +21,11 @@
 
   plugins = {
 
+
     diffview.enable = true;
 
     lualine.enable = true;
     lualine.globalstatus = true;
-
-    lsp-format.enable = true;
 
     nvim-autopairs.enable = true;
 
@@ -53,20 +53,6 @@
 
     trouble.enable = true;
 
-    lsp = {
-      enable = true;
-      servers = {
-        nixd.enable = true;
-        rust-analyzer = {
-          enable = true;
-          installCargo = true;
-          installRustc = true;
-        };
-        biome.enable = true;
-        html.enable = true;
-        cssls.enable = true;
-      };
-    };
   };
 
 
