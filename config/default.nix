@@ -62,7 +62,7 @@
           installCargo = true;
           installRustc = true;
         };
-        tsserver.enable = true;
+        biome.enable = true;
         html.enable = true;
         cssls.enable = true;
       };
