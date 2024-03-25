@@ -20,6 +20,7 @@
     conform-nvim.formattersByFt = {
       nix = [ "nixfmt" ];
       javascript = [ "prettierd" ];
+      rust = [ "rustfmt" ];
     };
   };
 
