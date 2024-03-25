@@ -21,6 +21,8 @@
   plugins = {
 
 		bufferline.enable = true;
+
+		comment-nvim.enable = true;
 	
     diffview.enable = true;
 
