@@ -22,7 +22,7 @@
 
 		bufferline.enable = true;
 
-		comment-nvim.enable = true;
+		comment.enable = true;
 	
     diffview.enable = true;
 
@@ -41,7 +41,7 @@
     neogit.settings.integrations.telescope = true;
 
     obsidian.enable = true;
-    obsidian.settings.dir = "~/Notes";
+    obsidian.settings.dir = "/home/jake/Notes";
     obsidian.settings.templates.subdir = "Templates";
     obsidian.settings.daily_notes.folder = "Daily/";
     obsidian.settings.daily_notes.template = "Daily.md";
