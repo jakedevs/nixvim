@@ -10,9 +10,9 @@
 
   globals.mapleader = " ";
   colorschemes.kanagawa.enable = true;
-  colorschemes.kanagawa.compile = true;
-  colorschemes.kanagawa.theme = "dragon";
-  colorschemes.kanagawa.background.dark = "dragon";
+  colorschemes.kanagawa.settings.compile = true;
+  colorschemes.kanagawa.settings.theme = "dragon";
+  colorschemes.kanagawa.settings.background.dark = "dragon";
 
   viAlias = true;
   vimAlias = true;
