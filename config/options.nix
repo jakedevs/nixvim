@@ -1,5 +1,5 @@
 {
-  config.options = {
+  config.opts = {
     showmode = false;
     shortmess = "I";
     smartindent = true;
