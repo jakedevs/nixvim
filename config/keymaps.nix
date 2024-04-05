@@ -49,18 +49,38 @@
       key = "<C-S-i>";
       options.desc = "format code";
     }
-		{
-			action = "<cmd>Neogit<CR>";
-			key = "<leader>gg";
-			options.desc = "git ui";
-		}
-		{
-			action = "<cmd>bprevious<CR>";
-			key = "<leader>h";
-		}
-		{
-			action = "<cmd>bnext<CR>";
-			key = "<leader>l";
-		}
+    {
+      action = "<cmd>Neogit<CR>";
+      key = "<leader>gg";
+      options.desc = "git ui";
+    }
+    {
+      action = "<cmd>bprevious<CR>";
+      key = "<leader>h";
+    }
+    {
+      action = "<cmd>bnext<CR>";
+      key = "<leader>l";
+    }
+    {
+      action = "<cmd>ToggleTerm direction=tab<CR>";
+      key = "<leader>tt";
+      options.desc = "terminal tab";
+    }
+    {
+      action = "<cmd>ToggleTerm direction=float<CR>";
+      key = "<leader>tf";
+      options.desc = "terminal floating panel";
+    }
+    {
+      action = "<cmd>ToggleTerm direction=vertical<CR>";
+      key = "<leader>tv";
+      options.desc = "terminal vertical split";
+    }
+    {
+      action = "<cmd>ToggleTerm direction=horizontal<CR>";
+      key = "<leader>th";
+      options.desc = "terminal horizontal split";
+    }
   ];
 }

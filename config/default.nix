@@ -20,6 +20,10 @@
 
   plugins = {
 
+		rustaceanvim.enable = true;
+
+		toggleterm.enable = true;
+
 		bufferline.enable = true;
 
 		comment.enable = true;
