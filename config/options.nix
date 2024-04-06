@@ -1,6 +1,7 @@
 {
   config.opts = {
     showmode = false;
+		number = true;
     shortmess = "I";
     smartindent = true;
     autochdir = true;
