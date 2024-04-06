@@ -20,6 +20,8 @@
 
   plugins = {
 
+		leap.enable = true;
+
 		rustaceanvim.enable = true;
 
 		toggleterm.enable = true;
